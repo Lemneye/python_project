@@ -9,7 +9,7 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email import encoders
 count,c=0,0
-creds = 'tempfile.temp' #this just sets the creds to 'tempfile.temp'
+creds = 'tempfile.temp' 
 
 def mail():
     def attach():
@@ -28,7 +28,7 @@ def mail():
         global c
         msg=MIMEMultipart()
         msg['From']='lemneye.py@gmail.com'      
-        msg['To']= Toe.get()     #send to multiple users
+        msg['To']= Toe.get()    
         msg['Subject']= Subjecte.get()
         
         body = texte.get("1.0","end-1c")
