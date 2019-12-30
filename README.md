@@ -1,7 +1,7 @@
 ## Python_project
 Cette application permet l’enregistrement d’un utilisateur et assure son authentification une fois donc que l’utilisateur et authentifie  l’application lui permet alors d’envoyer des emails et des images en toute simplicité.
 * Premièrement on a l’interface de connexion si l’utilisateur et déjà inscrit
-Ile peut donc se connecter facilement en saisisant son username et son password 
+Il peut donc se connecter facilement en saisisant son username et son password 
 * Sinon il peut donc s’inscrire en cliquant sur la Button signup
 * Une fois que l’utilisateur est connecte il passe alors au deuxième interface ou il y a deux choix envoyer des messages ou de déconnecter en cliquant sur la Button Logout 
 * sinon  il passe au troisième interface  ou il peut donc envoyer des mails ou des images  (protocole utilisé SMTP pour l’envoie )
